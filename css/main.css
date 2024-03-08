@@ -1,0 +1,553 @@
+/* dm-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/dm-sans-v14-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/dm-sans-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/dm-sans-v14-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/dm-sans-v14-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  /* -------------------------------------------------------------navbar---------------------------------------------- */
+  .navbar__container{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .navbar__items{
+    list-style: none;
+    display: flex;
+  }
+  .navbar__link{
+    text-decoration: none;
+    color: #222222;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 40px;
+  }
+  .navbar__link:hover{
+    color: #086CF9;
+    font-size: 18px;
+  }
+  .navbar__buttons{
+    display: flex;
+  }
+  .navbar__button{
+    width:100px;
+    height: 40px;
+    border-radius: 3px;
+    background-color:white ;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #086CF9;
+    border: 1px solid #086CF9;
+    margin: 2px;
+  }
+  .navbar__button:hover{
+    background-color: #086CF9;
+    color: white;
+  }
+  /* -------------------------------------------------------------------header-------------------------------------------------- */
+  .header{
+    background-image: url(../images/backgraund.png);
+    background-size: 100%;
+  }
+  .header__container{
+    text-align: center;
+    height: 650px;
+  }
+  .header__tittle{
+    font-family: 'Dm sans',sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: white;
+    padding-top: 180px;
+  }
+  .header__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    max-width: 900px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+  }
+  .header__button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #086CF9;
+    color: #086CF9;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'MD sans',sans-serif;
+    font-weight: 400;
+  }
+  .header__button:hover{
+    background-color: #086CF9;
+    color: white;
+  }
+  /* ---------------------------------------------------------------------list---------------------------------------------------------- */
+  
+  .list__container{
+    position: relative;
+  }
+  .list__items{
+    background-color: white;
+    top: -90px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    width: 1000px;
+    height: 160px;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .list__item{
+    display: flex;
+  }
+  .list__name{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #086CF9;
+  }
+  .list__tittle{
+    font-family: 'DM sana',sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .list__img{
+    padding: 25px;
+  }
+
+  /* --------------------------------------------------------------------page----------------------------------------------------- */
+  .page__container{
+    display: flex;
+    padding-top: 220px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page__wrapper{
+    width: 500px;
+  }
+  .page__caption{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #222222;
+  }
+  .page__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    max-width: 450px;
+    line-height: 24px;
+  }
+  .page__suptext{
+    color: #333333;
+    font-size: 20px;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    max-width: 450px;
+    line-height: 24px;
+  }
+  .page__button{
+    padding: 16px 32px;
+    background-color: #086CF9;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+  }
+  .page__button:hover{
+    background-color: white;
+    color: #086CF9;
+    border: 2px solid #086CF9;
+  }
+
+  /* ---------------------------------------------------------------------hero---------------------------------------------------- */
+  .hero__container{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .hero__tittle{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .hero__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+  }
+  .hero__items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  .hero__item{
+    width: 240px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .hero__subname{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .hero__suptext{
+    color: #555555;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .hero__item:hover{
+    background-color: rgb(87, 150, 209);
+   
+  }
+  /* ---------------------------------------------------------------------------main------------------------------------------------------------- */
+  .main__name{
+    color: #000000;
+    font-size: 45px;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  .main__text{
+    color: #555555;
+    font-size: 16px;
+    font-family: 'Dm sans',sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  .main__items{
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .m__item__list{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    justify-content: space-between;
+  }
+  .m__item__row{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    justify-content: space-between;
+  }
+  .main__suptext{
+    max-width: 300px;
+    color: #555555;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__supname{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .main__price{
+    font-size: 24px;
+    color: #086CF9;
+  }
+  h4{
+    color: #555555;
+    font-size: 16px;
+  }
+  .main__item{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: white;
+    margin: 8px;
+  }
+  .main__container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main__button{
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #086CF9;
+    color: white;
+    border: 0;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .main{
+    background-color: #ECF4FF;
+  }
+  .main__button:hover{
+    background-color: white;
+    color:#086CF9;
+    border: 0;
+  }
+  .main__item:hover{
+     opacity: 60%;
+  }
+  /* --------------------------------------------------------------------meeting---------------------------------------------------- */
+  .meeting__suptext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 190px;
+    padding: 10px;
+  }
+  .meeting__suptittle{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  .meeting__item{
+    width: 300px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px 10px rgb(236, 232, 232);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .meeting__content{
+    padding-left: 10px;
+  }
+  .meeting__items{
+    list-style: none;
+    display: flex;
+  }
+  .meeting__tittle{
+    text-align: center;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .meeting__text{
+    text-align: center;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    padding-bottom: 20px;
+  }
+  /* ---------------------------------------------------------------------------section-------------------------------------------- */
+  .section__item{
+    position: relative;
+    border-radius: 7px;
+    width: 310px;
+    box-shadow: 1px 5px 5px 5px rgb(230, 222, 222);
+    margin: 10px;
+  }
+  .section__pic{
+    position: absolute;
+    left: -0.2px;
+  }
+  .section__items{
+    list-style: none;
+    display: flex;
+  }
+  h3{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 15px;
+    line-height: 25px;
+  }
+  .section__suptext{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .section__image{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .section__name{
+    text-align: center;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top:50px ;
+  }
+  .section__text{
+    text-align: center;
+    font-family: 'DM sans',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444444;
+  }
+  /* --------------------------------------------------------------------statistic--------------------------------------------------- */
+  .statistic{
+    background-color: #D3E5FE;
+    margin-top: 70px;
+  }
+  .statistic__items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .statistic__tittle{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 60px;
+  }
+  .statistic__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+  }
+  /* -----------------------------------------------------------form------------------------------------------------------------------- */
+  .form__box{
+    padding: 10px;
+    max-width: 400px;
+    background-color: white;
+    margin-left: 220px;
+    border-radius: 8px;
+    border: 2px solid grey; 
+    border: 0;
+  }
+  .form__container{
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 900px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #086CF9;
+    text-align: center;
+    align-items: center;
+  }
+  #submit{
+    padding: 10px 15px;
+    background-color:#086CF9 ;
+    border: 2px transparent;
+    color: white;
+    border-radius: 5px;
+  }
+  .form__tittle{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+  }
+  .form__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+  #email{
+    border: 0;
+  }
+  /* --------------------------------------------------------------footer-------------------------------------------------------------- */
+  
+  .footer__tittle{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .footer__text{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 350px;
+    color: #555555;
+  }
+  .footer__link{
+    font-family: 'DM sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444444;
+    max-width: 60px;
+    text-decoration: none;
+  }
+  .footer__item{
+    max-width: 300px;
+  }
+  .footer{
+    background-color: #D3E5FE;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer__items{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  
+  
+ 
